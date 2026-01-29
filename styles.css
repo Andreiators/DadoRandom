@@ -5,12 +5,8 @@
     margin: 0;   
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
     background-color: black;
 }
-
 
 h1 {
     font-family: 'roboto', sans-serif;
@@ -22,54 +18,23 @@ h1 {
 }
 
 h3{
+    display: block;
     font-family: 'roboto', sans-serif;
-    justify-content: center;
     align-items: center;
+    text-align: center;
     font-size: 30PX;
     margin-top: 40px;
-    text-align: center;
-    color: #fff
-    width: 100px;
-}
-
-p{background-color: orangered;
-    display: block;
-}
-
-.boxpai{
-    background-color: green
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: #fff;
     width: auto;
-    height: 100vh;
-   
-   
-}   
-
-#boxdado{
-
-    display: flex;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 5px;
-    margin-top: 20px;
-
+    height: auto;
 }
 
-#dado{
-
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 160px;
-
-
-   
+img {
+    display: block;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
 }
 
 #imputs{
@@ -83,20 +48,8 @@ p{background-color: orangered;
     border-radius: 5px;
     font-size: 20px;
     color: aliceblue;
-  
 }
 
-#boxtitle {
-    font-family: 'roboto', sans-serif;
-    color:#fff;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-    margin-top: 90px;
-    border-radius: 5px;
-}
 #minimo {
     display: inline-block;
     color: white;
@@ -125,11 +78,9 @@ p{background-color: orangered;
     margin-left: 60px;
     align-items: center;
     justify-content: center;
-
 }
 
-h4 {
-   
+h4 {   
     font-family: 'roboto', sans-serif;
     color: black;
     background-color: chartreuse;
@@ -139,7 +90,6 @@ h4 {
     font-size: 30px;
     border-radius: 5px;
     margin: auto;
-
 }   
 
 #button {
@@ -153,5 +103,4 @@ h4 {
     margin-top: 100px;
     margin-left: 45%;
     border-radius: 10px;
-
 }
